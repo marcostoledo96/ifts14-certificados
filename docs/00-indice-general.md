@@ -55,6 +55,18 @@ Leer:
 - `docs/tecnico/00-guia-mantenedor-opencode.md`
 - `docs/post-mvp/00-etapa-2.md`
 
+## Si la tarea usa OpenCode / Gentle-AI
+
+Leer:
+
+- `docs/opencode/00-guia-inicio-rapido.md`
+- `docs/opencode/01-flujo-general-opencode-gentle-ai.md`
+- `docs/opencode/02-mapa-ramas-funcionalidades.md`
+- `docs/opencode/10-prompt-maestro-reutilizable.md`
+- Archivo de prompts de la etapa correspondiente.
+
+No leer todos los archivos de `docs/opencode/` por defecto. Solo el de inicio rápido y el de la etapa actual.
+
 ## Archivos que no se leen por defecto
 
 - `.atl/skill-registry.md`: solo cuando se trabaja con skills.
