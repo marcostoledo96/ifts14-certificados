@@ -1,0 +1,18 @@
+[
+  {
+    "id": "alumno-demo-001",
+    "nombre": "María",
+    "apellido": "González",
+    "dni": "40123456",
+    "dniFormateado": "40.123.456",
+    "email": "maria.gonzalez.demo@ejemplo.com"
+  },
+  {
+    "id": "alumno-demo-002",
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "dni": "38765432",
+    "dniFormateado": "38.765.432",
+    "email": "juan.perez.demo@ejemplo.com"
+  }
+]

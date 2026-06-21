@@ -1,0 +1,22 @@
+{
+  "id": "curso_demo_001",
+  "nombre": "Introducción a Sistemas Embebidos e Internet de las Cosas",
+  "descripcion": "Curso introductorio de sistemas conectados y aplicaciones IoT.",
+  "fechas": [
+    {
+      "id": "fecha_001",
+      "fecha": "2026-06-05",
+      "horario": "18:00 a 21:00"
+    },
+    {
+      "id": "fecha_002",
+      "fecha": "2026-06-12",
+      "horario": "18:00 a 21:00"
+    },
+    {
+      "id": "fecha_003",
+      "fecha": "2026-06-19",
+      "horario": "18:00 a 21:00"
+    }
+  ]
+}

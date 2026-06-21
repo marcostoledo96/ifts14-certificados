@@ -1,0 +1,30 @@
+[
+  {
+    "id": "certificacion-demo-001",
+    "tokenDemo": "demo-valida-001",
+    "estado": "valida",
+    "numeroCertificado": "IFTS14-CUR-2026-0001",
+    "fechaEmision": "2026-06-20",
+    "codigoValidacionParcial": "QR-8F3A-92K",
+    "alumnoId": "alumno-demo-001",
+    "cursoId": "curso-demo-001",
+    "fechasPresentesIds": [
+      "fecha-demo-001",
+      "fecha-demo-002",
+      "fecha-demo-003"
+    ],
+    "urlValidacion": "/validar/demo-valida-001"
+  },
+  {
+    "id": "certificacion-demo-002",
+    "tokenDemo": "demo-revocada-001",
+    "estado": "revocada",
+    "numeroCertificado": "IFTS14-CUR-2026-0002",
+    "fechaEmision": "2026-06-20",
+    "codigoValidacionParcial": "QR-REV-001",
+    "alumnoId": "alumno-demo-002",
+    "cursoId": "curso-demo-001",
+    "motivoRevocacion": "Error en la carga original de asistencia.",
+    "urlValidacion": "/validar/demo-revocada-001"
+  }
+]

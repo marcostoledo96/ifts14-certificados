@@ -1,0 +1,30 @@
+{
+  "descripcion": "Contrato administrativo para detalle de certificación",
+  "certificacion": {
+    "id": "cert_001",
+    "estado": "valida",
+    "requiereReenvio": false,
+    "alumno": {
+      "id": "alu_001",
+      "nombre": "María",
+      "apellido": "González",
+      "dni": "40123456",
+      "email": "maria.gonzalez@example.com"
+    },
+    "curso": {
+      "id": "cur_001",
+      "nombre": "Introducción a Sistemas Embebidos e Internet de las Cosas"
+    },
+    "fechasPresentes": [
+      "2026-06-05",
+      "2026-06-12",
+      "2026-06-19"
+    ],
+    "numeroCertificado": "IFTS14-CUR-2026-0001",
+    "fechaEmision": "2026-06-20",
+    "tokenParcial": "QR-8F3A-92K",
+    "urlValidacion": "/validar/token-demo",
+    "estadoEnvio": "enviado",
+    "ultimoEnvioEn": "2026-06-20T18:40:00-03:00"
+  }
+}

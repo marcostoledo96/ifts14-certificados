@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Certificación válida",
+    "url": "/validar/demo-valida-001",
+    "resultadoEsperado": "Muestra certificación válida con DNI completo y fechas presentes."
+  },
+  {
+    "nombre": "Certificación revocada",
+    "url": "/validar/demo-revocada-001",
+    "resultadoEsperado": "Muestra certificación revocada y no la presenta como vigente."
+  },
+  {
+    "nombre": "Certificación no encontrada",
+    "url": "/validar/demo-no-encontrada-001",
+    "resultadoEsperado": "No muestra datos personales."
+  }
+]

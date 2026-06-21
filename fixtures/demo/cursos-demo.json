@@ -1,0 +1,31 @@
+[
+  {
+    "id": "curso-demo-001",
+    "nombre": "Introducción a Sistemas Embebidos e Internet de las Cosas",
+    "tipo": "Certificado de curso",
+    "cargaHoraria": 12,
+    "modalidad": "Presencial",
+    "fechas": [
+      {
+        "id": "fecha-demo-001",
+        "fecha": "2026-06-05",
+        "horario": "18:00 a 21:00"
+      },
+      {
+        "id": "fecha-demo-002",
+        "fecha": "2026-06-12",
+        "horario": "18:00 a 21:00"
+      },
+      {
+        "id": "fecha-demo-003",
+        "fecha": "2026-06-19",
+        "horario": "18:00 a 21:00"
+      },
+      {
+        "id": "fecha-demo-004",
+        "fecha": "2026-06-26",
+        "horario": "18:00 a 21:00"
+      }
+    ]
+  }
+]

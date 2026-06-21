@@ -1,0 +1,26 @@
+{
+  "resumen": {
+    "cursosCargados": 8,
+    "alumnosRegistrados": 126,
+    "certificacionesEmitidas": 84,
+    "certificacionesRevocadas": 2,
+    "pendientesReenvio": 5
+  },
+  "actividadReciente": [
+    {
+      "tipo": "certificacion_emitida",
+      "descripcion": "Se emitió certificación para María González.",
+      "fechaHora": "2026-06-20T18:35:00-03:00"
+    },
+    {
+      "tipo": "asistencia_modificada",
+      "descripcion": "Se modificó asistencia en curso de IoT.",
+      "fechaHora": "2026-06-20T17:10:00-03:00"
+    },
+    {
+      "tipo": "certificacion_reenviada",
+      "descripcion": "Se reenvió PDF con el mismo QR.",
+      "fechaHora": "2026-06-20T16:40:00-03:00"
+    }
+  ]
+}

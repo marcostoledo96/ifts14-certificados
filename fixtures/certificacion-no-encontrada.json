@@ -1,0 +1,8 @@
+{
+  "estado": "no_encontrada",
+  "codigoConsultadoParcial": "QR-XXXX-92K",
+  "consulta": {
+    "fechaHora": "2026-06-20T18:35:00-03:00"
+  },
+  "mensaje": "No pudimos encontrar una certificación asociada a este código."
+}

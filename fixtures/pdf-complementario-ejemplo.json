@@ -1,0 +1,36 @@
+{
+  "tipoDocumento": "certificado_horizontal_qr",
+  "orientacion": "horizontal",
+  "logos": {
+    "escudo": "placeholder",
+    "buenosAiresAprende": "placeholder",
+    "agenciaHabilidades": "placeholder",
+    "ifts14": "placeholder",
+    "baCiudad": "placeholder"
+  },
+  "alumno": {
+    "nombreCompleto": "María González",
+    "dni": "40123456"
+  },
+  "curso": {
+    "nombre": "Introducción a Sistemas Embebidos e Internet de las Cosas"
+  },
+  "fechasPresentes": [
+    "2026-06-05",
+    "2026-06-12",
+    "2026-06-19"
+  ],
+  "certificacion": {
+    "numero": "IFTS14-CUR-2026-0001",
+    "fechaEmision": "2026-06-20",
+    "codigoValidacionParcial": "QR-8F3A-92K",
+    "linkValidacion": "https://ifts14-certificados.vercel.app/validar/demo"
+  },
+  "firmas": [
+    {
+      "nombre": "Placeholder autoridad",
+      "cargo": "Placeholder cargo"
+    }
+  ],
+  "sello": "placeholder"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "alumnoId": "alumno-demo-001",
+    "cursoId": "curso-demo-001",
+    "fechaId": "fecha-demo-001",
+    "estado": "presente"
+  },
+  {
+    "alumnoId": "alumno-demo-001",
+    "cursoId": "curso-demo-001",
+    "fechaId": "fecha-demo-002",
+    "estado": "presente"
+  },
+  {
+    "alumnoId": "alumno-demo-001",
+    "cursoId": "curso-demo-001",
+    "fechaId": "fecha-demo-003",
+    "estado": "presente"
+  },
+  {
+    "alumnoId": "alumno-demo-002",
+    "cursoId": "curso-demo-001",
+    "fechaId": "fecha-demo-001",
+    "estado": "presente"
+  }
+]

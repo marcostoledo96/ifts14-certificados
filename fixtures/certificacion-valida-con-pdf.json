@@ -1,0 +1,34 @@
+{
+  "tipoResultado": "valida",
+  "institucion": {
+    "nombre": "IFTS N.° 14",
+    "descripcion": "Instituto de Formación Técnica Superior N.° 14"
+  },
+  "alumno": {
+    "nombre": "María",
+    "apellido": "González",
+    "dni": "40123456"
+  },
+  "curso": {
+    "nombre": "Introducción a Sistemas Embebidos e Internet de las Cosas"
+  },
+  "certificacion": {
+    "numero": "IFTS14-CUR-2026-0001",
+    "fechaEmision": "2026-06-20",
+    "codigoValidacionParcial": "QR-8F3A-92K",
+    "linkValidacion": "https://ifts14-certificados.vercel.app/validar/demo",
+    "tokenPermanece": true
+  },
+  "fechasPresentes": [
+    "2026-06-05",
+    "2026-06-12",
+    "2026-06-19"
+  ],
+  "pdf": {
+    "formato": "horizontal",
+    "variante": "certificado_con_qr",
+    "incluyeQr": true,
+    "incluyeLinkEscrito": true,
+    "usaPlaceholders": true
+  }
+}

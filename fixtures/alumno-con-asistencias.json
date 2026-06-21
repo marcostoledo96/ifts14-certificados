@@ -1,0 +1,27 @@
+{
+  "alumno": {
+    "id": "alumno_001",
+    "nombre": "María",
+    "apellido": "González",
+    "dni": "40123456",
+    "email": "maria.gonzalez@example.com"
+  },
+  "curso": {
+    "id": "curso_iot_intro",
+    "nombre": "Introducción a Sistemas Embebidos e Internet de las Cosas"
+  },
+  "asistenciasPresentes": [
+    {
+      "fechaCursoId": "fecha_001",
+      "fecha": "2026-06-05"
+    },
+    {
+      "fechaCursoId": "fecha_002",
+      "fecha": "2026-06-12"
+    },
+    {
+      "fechaCursoId": "fecha_003",
+      "fecha": "2026-06-19"
+    }
+  ]
+}

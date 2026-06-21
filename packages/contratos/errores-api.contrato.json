@@ -1,0 +1,27 @@
+{
+  "descripcion": "Formato estándar de errores API",
+  "formato": {
+    "ok": false,
+    "error": {
+      "codigo": "VALIDACION_ERROR",
+      "mensaje": "Mensaje claro para la interfaz.",
+      "detalle": null
+    }
+  },
+  "codigos": [
+    "TOKEN_INVALIDO",
+    "TOKEN_NO_ENCONTRADO",
+    "CERTIFICACION_REVOCADA",
+    "ALUMNO_NO_ENCONTRADO",
+    "CURSO_NO_ENCONTRADO",
+    "SIN_ASISTENCIAS_PRESENTES",
+    "CERTIFICACION_DUPLICADA",
+    "EMAIL_FALTANTE",
+    "EMAIL_ENVIO_ERROR",
+    "PDF_GENERACION_ERROR",
+    "NO_AUTORIZADO",
+    "PERMISO_INSUFICIENTE",
+    "VALIDACION_ERROR",
+    "ERROR_INTERNO"
+  ]
+}
