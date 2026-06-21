@@ -1,6 +1,6 @@
 # Documentación del proyecto
 
-La documentación está optimizada para uso con IA: menos archivos, índices claros y lectura por tarea.
+Documentación operativa del sistema de certificaciones QR del IFTS N.° 14.
 
 ## Archivos centrales
 

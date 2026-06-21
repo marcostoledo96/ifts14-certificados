@@ -1,12 +1,14 @@
 # AGENTS.md — docs/qa
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Criterios de QA, demo y entregables.
 
-## Leer primero
+## Archivos
 
-- `00-qa-demo-entrega.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-qa-demo-entrega.md` | Preparas QA, demo o entrega | Criterios de QA, demo y Definition of Done |
 
 ## Reglas
 

@@ -1,12 +1,14 @@
 # AGENTS.md — docs/operacion
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Guía de operación y handoff del sistema.
 
-## Leer primero
+## Archivos
 
-- `00-operacion-handoff.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-operacion-handoff.md` | Preparas handoff o revisas operación | Procedimientos operativos y guía de handoff |
 
 ## Reglas
 

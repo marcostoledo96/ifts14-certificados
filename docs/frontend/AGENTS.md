@@ -1,14 +1,18 @@
 # AGENTS.md — docs/frontend
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Documentación del frontend MVP.
 
-## Leer primero
+## Archivos
 
-- `00-frontend-mvp.md`
-- `01-pantallas-flujos-ui.md`
-- `02-sistema-diseno-anti-cliches.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-frontend-mvp.md` | Empiezas a trabajar en frontend | Visión general del frontend MVP |
+| `01-pantallas-flujos-ui.md` | Diseñas o implementas pantallas | Pantallas, flujos y especificaciones UI |
+| `02-sistema-diseno-anti-cliches.md` | Definen estilos o revisan diseño | Sistema de diseño y reglas anti-clichés |
+| `03-prompts-stitch-v0.md` | Generas pantallas con Stitch/v0 | Prompts para generación de prototipos |
+| `04-qa-frontend.md` | Haces QA de frontend | Checklist de QA frontend |
 
 ## Reglas
 

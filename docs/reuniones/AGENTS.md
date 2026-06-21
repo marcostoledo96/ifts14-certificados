@@ -1,12 +1,14 @@
 # AGENTS.md — docs/reuniones
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Registro de acuerdos y pendientes de reuniones.
 
-## Leer primero
+## Archivos
 
-- `00-reuniones-pendientes.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-reuniones-pendientes.md` | Consultas acuerdos o pendientes de reuniones | Acuerdos y pendientes de reuniones |
 
 ## Reglas
 

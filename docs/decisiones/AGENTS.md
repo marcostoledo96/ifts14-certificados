@@ -1,12 +1,14 @@
 # AGENTS.md — docs/decisiones
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Decisiones de arquitectura y producto ya confirmadas.
 
-## Leer primero
+## Archivos
 
-- `00-decisiones-confirmadas.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-decisiones-confirmadas.md` | Consultas si algo ya se decidió | Registro de decisiones confirmadas con contexto y fecha |
 
 ## Reglas
 
