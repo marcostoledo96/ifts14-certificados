@@ -1,15 +1,18 @@
-# AGENTS.md — openspec/specs/operacion-handoff
+# AGENTS.md — Spec Operación y Handoff
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Spec de operación, deploy y handoff del sistema.
 
-## Leer primero
+## Archivos
 
-- `spec.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `spec.md` | Implementas o revisas este módulo | Objetivo, alcance, criterios de aceptación y casos de prueba |
+| Docs relacionados | Necesitas contexto de operación | `docs/operacion/00-operacion-handoff.md`, `docs/deploy/00-deploy-prototipo.md` |
 
 ## Reglas
 
-- Mantener documentación breve, actualizada y en español argentino formal.
-- No duplicar reglas globales si ya están en `AGENTS.md` raíz.
-- Si falta información, marcarla como pendiente en vez de inventarla.
+- Mantener este spec enfocado: no agregar implementación sin criterios de aceptación.
+- Si cambia una regla, actualizar docs relacionados.
+- Mantener documentación en español argentino formal.

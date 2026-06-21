@@ -1,15 +1,19 @@
-# AGENTS.md — openspec/specs/carga-masiva
+# AGENTS.md — Spec Carga Masiva
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Spec de carga masiva de alumnos/asistencias. Documentada pero no comprometida para el MVP.
 
-## Leer primero
+## Archivos
 
-- `spec.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `spec.md` | Diseñas o planificas carga masiva | Objetivo, alcance, criterios de aceptación y casos de prueba |
+| Docs relacionados | Necesitas contexto de alumnos | `docs/backend/00-backend-mvp.md` |
 
 ## Reglas
 
-- Mantener documentación breve, actualizada y en español argentino formal.
-- No duplicar reglas globales si ya están en `AGENTS.md` raíz.
-- Si falta información, marcarla como pendiente en vez de inventarla.
+- La carga masiva está documentada pero no comprometida para el MVP.
+- Mantener este spec enfocado: no agregar implementación sin criterios de aceptación.
+- Si cambia una regla, actualizar docs relacionados.
+- Mantener documentación en español argentino formal.

@@ -1,14 +1,16 @@
 # AGENTS.md — docs/backend
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Documentación técnica del backend MVP.
 
-## Leer primero
+## Archivos
 
-- `00-backend-mvp.md`
-- `01-contratos-api.md`
-- `02-casos-uso-tdd.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-backend-mvp.md` | Empiezas a trabajar en backend | Visión general del backend MVP |
+| `01-contratos-api.md` | Diseñas o consumes endpoints | Contratos API detallados (fuente de verdad para endpoints) |
+| `02-casos-uso-tdd.md` | Implementas casos de uso | Casos de uso con enfoque TDD |
 
 ## Reglas
 

@@ -1,5 +1,18 @@
 # Índice general de documentación
 
+## Fuente de verdad
+
+| Dominio | Fuente principal | Complemento |
+|---------|----------------|-------------|
+| Reglas funcionales | `02-requerimientos-reglas-negocio.md` | Specs en `openspec/specs/` |
+| Contratos API | `docs/backend/01-contratos-api.md` | Fixtures en `fixtures/`, contratos en `packages/contratos/` |
+| Pantallas y flujos | `docs/frontend/01-pantallas-flujos-ui.md` | Specs en `openspec/specs/frontend-pantallas/` |
+| Arquitectura | `03-arquitectura-contratos-datos.md` | `docs/arquitectura/` |
+| Decisions | `docs/decisiones/00-decisiones-confirmadas.md` | — |
+| Operación | `docs/operacion/00-operacion-handoff.md` | `docs/deploy/`, `docs/post-mvp/` |
+
+Ante conflicto entre un doc general y un spec, el spec tiene prioridad dentro de su dominio.
+
 ## Lectura mínima para cualquier tarea
 
 1. `AGENTS.md` raíz.

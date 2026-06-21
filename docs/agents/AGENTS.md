@@ -1,12 +1,14 @@
 # AGENTS.md — docs/agents
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Guía de configuración y uso de agents y prompts.
 
-## Leer primero
+## Archivos
 
-- `00-guia-agents.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-guia-agents.md` | Configuras o usas agents | Guía de agents y prompts del proyecto |
 
 ## Reglas
 
