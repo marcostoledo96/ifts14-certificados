@@ -1,12 +1,14 @@
 # AGENTS.md — docs/deploy
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Guía de despliegue del prototipo.
 
-## Leer primero
+## Archivos
 
-- `00-deploy-prototipo.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-deploy-prototipo.md` | Despliegas o configuras infraestructura | Instrucciones de deploy del prototipo |
 
 ## Reglas
 

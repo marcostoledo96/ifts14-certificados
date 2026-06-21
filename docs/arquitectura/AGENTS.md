@@ -1,13 +1,15 @@
 # AGENTS.md — docs/arquitectura
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Documentación de arquitectura y contratos de datos.
 
-## Leer primero
+## Archivos
 
-- `00-arquitectura-mvp.md`
-- `01-contratos-datos-api.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-arquitectura-mvp.md` | Diseñas o revisas la arquitectura global | Arquitectura general del MVP |
+| `01-contratos-datos-api.md` | Trabajas contratos de datos o API | Contratos de datos y API detallados |
 
 ## Reglas
 

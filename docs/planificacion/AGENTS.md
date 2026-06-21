@@ -1,12 +1,14 @@
 # AGENTS.md — docs/planificacion
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Roadmap, backlog y organización de issues.
 
-## Leer primero
+## Archivos
 
-- `00-roadmap-backlog-issues.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-roadmap-backlog-issues.md` | Organizas sprints, backlog o issues | Roadmap, backlog y GitHub Issues |
 
 ## Reglas
 

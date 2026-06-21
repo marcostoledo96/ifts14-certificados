@@ -1,12 +1,14 @@
 # AGENTS.md — docs/seguridad
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Seguridad, privacidad y protección de datos personales.
 
-## Leer primero
+## Archivos
 
-- `00-seguridad-privacidad.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-seguridad-privacidad.md` | Trabajas protección de datos, privacidad o seguridad | Reglas de seguridad y privacidad |
 
 ## Reglas
 

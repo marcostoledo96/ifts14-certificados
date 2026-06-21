@@ -1,12 +1,14 @@
 # AGENTS.md — docs/requerimientos
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Detalle de requerimientos del MVP.
 
-## Leer primero
+## Archivos
 
-- `00-requerimientos-mvp.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-requerimientos-mvp.md` | Necesitas detalle de requerimientos | Detalle de requerimientos funcionales del MVP |
 
 ## Reglas
 

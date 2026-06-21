@@ -1,12 +1,14 @@
 # AGENTS.md — docs/tecnico
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Guía para el mantenedor del sistema OpenCode/Gentle-AI.
 
-## Leer primero
+## Archivos
 
-- `00-guia-mantenedor-opencode.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-guia-mantenedor-opencode.md` | Configuras o mantienes OpenCode/Gentle-AI | Guía técnica de configuración y mantenimiento |
 
 ## Reglas
 

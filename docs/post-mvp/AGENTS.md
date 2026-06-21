@@ -1,12 +1,14 @@
 # AGENTS.md — docs/post-mvp
 
-## Uso
+## Propósito
 
-Este archivo orienta a la IA dentro de esta carpeta.
+Funcionalidades planificadas para después del MVP.
 
-## Leer primero
+## Archivos
 
-- `00-etapa-2.md`
+| Archivo | Leer cuando | Función |
+|---------|-------------|---------|
+| `00-etapa-2.md` | Planificas funcionalidades post-MVP | Alcance y planes de la etapa 2 |
 
 ## Reglas
 
