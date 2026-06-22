@@ -11,6 +11,7 @@ Esta guía es para que Marcos ejecute el proyecto `ifts14-certificados` en OpenC
 - OpenCode no debe hacer commit, push ni merge automáticamente. Debe proponer comandos y Marcos los ejecuta manualmente, salvo que Marcos indique lo contrario.
 - Cada ciclo debe trabajar en una rama propia.
 - Cada ciclo debe cerrar con documentación actualizada, resumen y mensaje de commit sugerido.
+- Cada ciclo debe cerrar con la etapa sdd-archive: revisar explícitamente si corresponde actualizar documentación según `docs/07-sdd-archive-y-mantenimiento-documentacion.md`.
 - `main` representa demo estable y deploy del prototipo.
 - No se trabaja directo sobre `main`.
 - Los PR se abren hacia `main`.
@@ -64,6 +65,21 @@ git pull origin main
 ```
 
 Si el ciclo no está terminado, abrir PR como draft o dejar la rama sin mergear.
+
+## Etapa sdd-archive por ciclo
+
+Antes de cerrar cada ciclo, revisá explícitamente si corresponde actualizar documentación.
+
+La guía completa está en `docs/07-sdd-archive-y-mantenimiento-documentacion.md`.
+
+Respondé:
+
+1. ¿Qué documentos revisaste?
+2. ¿Cuáles actualizaste?
+3. ¿Cuáles no actualizaste y por qué?
+4. ¿Queda deuda documental?
+
+No cerrar el ciclo si cambió comportamiento y no se actualizó la documentación correspondiente.
 
 ---
 
@@ -621,7 +637,6 @@ Lectura mínima:
 - README.md
 - docs/05-qa-demo-entrega.md
 - docs/deploy/00-deploy-prototipo.md
-- docs/opencode/07-prompts-etapa-4-integracion-qa-demo.md
 - fixtures/demo/ si existe
 
 Tareas SDD:

@@ -1,7 +1,3 @@
-# Spec consolidada — operacion-handoff
-
-## Spec
-
 # Spec — Operación y handoff del MVP
 
 ## Objetivo
@@ -28,11 +24,7 @@ Incluye:
 - capacitación formal extendida;
 - manual legal o normativo.
 
----
-
 ## Criterios de aceptación
-
-# Criterios de aceptación — Operación y handoff
 
 - La guía de Bedelía permite entender el flujo básico sin explicación técnica.
 - La guía técnica permite a un mantenedor ubicar docs, specs, fixtures y deploy.
@@ -43,41 +35,33 @@ Incluye:
 - No se incluyen secretos reales.
 - No se usan datos reales de alumnos.
 
----
-
 ## Casos de prueba
 
-# Casos de prueba — Operación y handoff
-
-## Caso 1 — Bedelía entiende el flujo
+### Caso 1 — Bedelía entiende el flujo
 
 Dado que una persona de Bedelía lee la guía,
 cuando sigue los pasos principales,
 entonces puede entender cómo crear curso, registrar asistencia, emitir certificación y reenviar PDF.
 
-## Caso 2 — Mantenedor técnico entiende el proyecto
+### Caso 2 — Mantenedor técnico entiende el proyecto
 
 Dado que una persona técnica lee la guía técnica,
 cuando revisa estructura, specs y fixtures,
 entonces puede ubicar dónde modificar cada parte.
 
-## Caso 3 — Handoff sin secretos
+### Caso 3 — Handoff sin secretos
 
 Dado que se entrega el repositorio,
 cuando se revisa la documentación,
 entonces no hay credenciales reales ni datos reales de alumnos.
 
-## Caso 4 — Etapa 2 separada
+### Caso 4 — Etapa 2 separada
 
 Dado que se revisa el roadmap,
 cuando se busca integración con web institucional,
 entonces aparece documentada como etapa futura, no como obligación del MVP.
 
----
-
 ## Pendientes
-
-# Pendientes — Operación y handoff
 
 - Confirmar nombre final del dominio o URL del prototipo.
 - Confirmar usuario admin de demo.

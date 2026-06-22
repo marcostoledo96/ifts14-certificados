@@ -1,7 +1,3 @@
-# Spec consolidada — backend-validacion-publica
-
-## Spec
-
 # Spec — Backend — Validación pública
 
 ## Resumen
@@ -12,7 +8,7 @@ Consulta pública por token de certificación.
 
 - Mantener comportamiento documentado.
 - No asumir stack final.
-- Respetar contratos de `docs/backend/03-contratos-api-mvp.md`.
+- Respetar contratos de `docs/backend/01-contratos-api.md`.
 - Usar datos ficticios en fixtures y demo.
 
 ## Fuera de alcance
@@ -30,11 +26,7 @@ Consulta pública por token de certificación.
 - Fixtures.
 - Plan de QA/TDD.
 
----
-
 ## Criterios de aceptación
-
-# Criterios de aceptación — Backend — Validación pública
 
 - Debe respetar los contratos documentados.
 - Debe tener tests o casos de prueba asociados.
@@ -43,13 +35,9 @@ Consulta pública por token de certificación.
 - Debe actualizar documentación si cambia comportamiento.
 - Debe ser verificable con fixtures ficticios.
 
----
-
 ## Casos de prueba
 
-# Casos de prueba — Backend — Validación pública
-
-## Casos mínimos
+### Casos mínimos
 
 1. Caso exitoso según contrato.
 2. Error de validación.
@@ -57,18 +45,14 @@ Consulta pública por token de certificación.
 4. Permiso insuficiente si aplica.
 5. Verificación de que no se exponen datos sensibles indebidamente.
 
-## QA manual
+### QA manual
 
 - Ejecutar flujo principal.
 - Comparar respuesta contra fixture.
 - Revisar logs.
 - Confirmar documentación actualizada.
 
----
-
 ## Pendientes
-
-# Pendientes — Backend — Validación pública
 
 - Confirmar stack final.
 - Confirmar proveedor de email.

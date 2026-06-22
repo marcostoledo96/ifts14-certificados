@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "datos": {
+    "estado": "revocada",
+    "alumno": {
+      "nombre": "María",
+      "apellido": "González",
+      "dni": "40123456"
+    },
+    "curso": {
+      "nombre": "Introducción a Sistemas Embebidos e Internet de las Cosas",
+      "tipo": "Certificado de curso"
+    },
+    "certificacion": {
+      "numero": "IFTS14-CUR-2026-0001",
+      "fechaEmision": "2026-06-20",
+      "codigoValidacionParcial": "QR-8F3A-92K",
+      "fechaRevocacion": "2026-06-25",
+      "motivoRevocacion": "Corrección administrativa"
+    },
+    "consulta": {
+      "fechaHora": "2026-06-25T11:10:00-03:00"
+    }
+  }
+}

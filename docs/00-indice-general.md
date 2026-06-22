@@ -23,6 +23,7 @@ Los archivos de prompts son operativos: se usan para copiar un ciclo por vez en 
 | Decisiones | `01-contexto-alcance-decisiones.md` (sección Decisiones confirmadas) | — |
 | Operación | `06-operacion-handoff-postmvp.md` | `docs/deploy/` |
 | Ejecución con OpenCode | `docs/opencode/00-guia-inicio-rapido.md` | `docs/opencode/README_PAQUETE.md` |
+| Cierre documental | `07-sdd-archive-y-mantenimiento-documentacion.md` | Matriz de actualización por tipo de cambio |
 
 Ante conflicto entre un doc general y un spec, el spec tiene prioridad dentro de su dominio.
 
@@ -32,6 +33,19 @@ Ante conflicto entre un doc general y un spec, el spec tiene prioridad dentro de
 2. `docs/01-contexto-alcance-decisiones.md`.
 3. `docs/02-requerimientos-reglas-negocio.md`.
 4. Spec correspondiente en `openspec/specs/`.
+
+## SDD archive / cierre documental por tarea
+
+Antes de cerrar cualquier ciclo SDD, revisar:
+
+1. ¿Qué tipo de cambio se hizo? (Ver matriz en `docs/07-sdd-archive-y-mantenimiento-documentacion.md`.)
+2. ¿Qué documentos corresponden a ese tipo de cambio?
+3. ¿Se actualizaron esos documentos?
+4. Si no, ¿por qué? ¿Queda deuda documental?
+
+**Regla:** No cerrar un ciclo si cambió comportamiento y no se actualizó la documentación correspondiente.
+
+Archivo de referencia completa: `docs/07-sdd-archive-y-mantenimiento-documentacion.md`.
 
 ## Si la tarea es frontend
 
@@ -82,16 +96,20 @@ Leer:
 
 ## Si la tarea es ejecutar trabajo en OpenCode / Gentle-AI
 
-Leer:
+Los prompts operativos vigentes están en los archivos raíz:
+
+- `MARCOS_PROMPTS_SDD_3_SEMANAS_CICLOS_GIT.md`
+- `MATIAS_PROMPTS_SDD_3_SEMANAS_CICLOS_GIT.md`
+
+Documentación complementaria de OpenCode:
 
 - `docs/opencode/README_PAQUETE.md` — resumen del paquete y lectura recomendada.
 - `docs/opencode/00-guia-inicio-rapido.md`
 - `docs/opencode/01-flujo-general-opencode-gentle-ai.md`
 - `docs/opencode/02-mapa-ramas-funcionalidades.md`
 - `docs/opencode/10-prompt-maestro-reutilizable.md`
-- Archivo de prompts de la etapa correspondiente.
 
-No leer todos los archivos de `docs/opencode/` por defecto. Solo el de inicio rápido y el de la etapa actual.
+No leer todos los archivos de `docs/opencode/` por defecto. Solo el de inicio rápido y el necesario para la tarea actual.
 
 ## Archivos que no se leen por defecto
 

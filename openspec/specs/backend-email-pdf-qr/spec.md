@@ -1,7 +1,3 @@
-# Spec consolidada — backend-email-pdf-qr
-
-## Spec
-
 # Spec — Backend — Email, PDF y QR
 
 ## Resumen
@@ -12,7 +8,7 @@ Generación de PDF, QR permanente y envío/reenvío.
 
 - Mantener comportamiento documentado.
 - No asumir stack final.
-- Respetar contratos de `docs/backend/03-contratos-api-mvp.md`.
+- Respetar contratos de `docs/backend/01-contratos-api.md`.
 - Usar datos ficticios en fixtures y demo.
 
 ## Fuera de alcance
@@ -30,11 +26,7 @@ Generación de PDF, QR permanente y envío/reenvío.
 - Fixtures.
 - Plan de QA/TDD.
 
----
-
 ## Criterios de aceptación
-
-# Criterios de aceptación — Backend — Email, PDF y QR
 
 - Debe respetar los contratos documentados.
 - Debe tener tests o casos de prueba asociados.
@@ -43,13 +35,9 @@ Generación de PDF, QR permanente y envío/reenvío.
 - Debe actualizar documentación si cambia comportamiento.
 - Debe ser verificable con fixtures ficticios.
 
----
-
 ## Casos de prueba
 
-# Casos de prueba — Backend — Email, PDF y QR
-
-## Casos mínimos
+### Casos mínimos
 
 1. Caso exitoso según contrato.
 2. Error de validación.
@@ -57,18 +45,14 @@ Generación de PDF, QR permanente y envío/reenvío.
 4. Permiso insuficiente si aplica.
 5. Verificación de que no se exponen datos sensibles indebidamente.
 
-## QA manual
+### QA manual
 
 - Ejecutar flujo principal.
 - Comparar respuesta contra fixture.
 - Revisar logs.
 - Confirmar documentación actualizada.
 
----
-
 ## Pendientes
-
-# Pendientes — Backend — Email, PDF y QR
 
 - Confirmar stack final.
 - Confirmar proveedor de email.

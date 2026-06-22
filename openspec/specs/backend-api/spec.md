@@ -1,7 +1,3 @@
-# Spec consolidada — backend-api
-
-## Spec
-
 # Spec — Backend API
 
 ## Resumen
@@ -12,7 +8,7 @@ Define contratos API conceptuales del MVP.
 
 - Mantener comportamiento documentado.
 - No asumir stack final.
-- Respetar contratos de `docs/backend/03-contratos-api-mvp.md`.
+- Respetar contratos de `docs/backend/01-contratos-api.md`.
 - Usar datos ficticios en fixtures y demo.
 
 ## Fuera de alcance
@@ -30,11 +26,7 @@ Define contratos API conceptuales del MVP.
 - Fixtures.
 - Plan de QA/TDD.
 
----
-
 ## Criterios de aceptación
-
-# Criterios de aceptación — Backend API
 
 - Debe respetar los contratos documentados.
 - Debe tener tests o casos de prueba asociados.
@@ -43,13 +35,9 @@ Define contratos API conceptuales del MVP.
 - Debe actualizar documentación si cambia comportamiento.
 - Debe ser verificable con fixtures ficticios.
 
----
-
 ## Casos de prueba
 
-# Casos de prueba — Backend API
-
-## Casos mínimos
+### Casos mínimos
 
 1. Caso exitoso según contrato.
 2. Error de validación.
@@ -57,18 +45,14 @@ Define contratos API conceptuales del MVP.
 4. Permiso insuficiente si aplica.
 5. Verificación de que no se exponen datos sensibles indebidamente.
 
-## QA manual
+### QA manual
 
 - Ejecutar flujo principal.
 - Comparar respuesta contra fixture.
 - Revisar logs.
 - Confirmar documentación actualizada.
 
----
-
 ## Pendientes
-
-# Pendientes — Backend API
 
 - Confirmar stack final.
 - Confirmar proveedor de email.
