@@ -1,5 +1,17 @@
 # Índice general de documentación
 
+## Archivos raíz para humanos
+
+| Archivo | Para quién | Uso |
+|---------|-----------|-----|
+| `GUIA.md` | Marcos, Matías, cualquier persona | Guía humana completa del proyecto. Mejor punto de entrada para entender contexto, planificación y flujo. |
+| `README.md` | Todos | Presentación breve, objetivo del MVP, cómo empezar. |
+| `AGENTS.md` | OpenCode/Gentle-AI | Reglas para asistentes de IA. Los humanos no necesitan leerlo salvo que configuren agentes. |
+| `MARCOS_PROMPTS_SDD_3_SEMANAS_CICLOS_GIT.md` | Marcos | Prompts por ciclos SDD, ramas, Git, PR y criterios de merge. Solo leer cuando se vaya a ejecutar un ciclo. |
+| `MATIAS_PROMPTS_SDD_3_SEMANAS_CICLOS_GIT.md` | Matías | Prompts por ciclos SDD backend, ramas, Git, PR y criterios de merge. Solo leer cuando se vaya a ejecutar un ciclo. |
+
+Los archivos de prompts son operativos: se usan para copiar un ciclo por vez en OpenCode/Gentle-AI. No es necesario leerlos completos salvo que se vaya a ejecutar un ciclo SDD.
+
 ## Fuente de verdad
 
 | Dominio | Fuente principal | Complemento |
@@ -8,14 +20,15 @@
 | Contratos API | `docs/backend/01-contratos-api.md` | Fixtures en `fixtures/`, contratos en `packages/contratos/` |
 | Pantallas y flujos | `docs/frontend/01-pantallas-flujos-ui.md` | Specs en `openspec/specs/frontend-pantallas/` |
 | Arquitectura | `03-arquitectura-contratos-datos.md` | `docs/arquitectura/` |
-| Decisions | `docs/decisiones/00-decisiones-confirmadas.md` | — |
-| Operación | `docs/operacion/00-operacion-handoff.md` | `docs/deploy/`, `docs/post-mvp/` |
+| Decisiones | `01-contexto-alcance-decisiones.md` (sección Decisiones confirmadas) | — |
+| Operación | `06-operacion-handoff-postmvp.md` | `docs/deploy/` |
+| Ejecución con OpenCode | `docs/opencode/00-guia-inicio-rapido.md` | `docs/opencode/README_PAQUETE.md` |
 
 Ante conflicto entre un doc general y un spec, el spec tiene prioridad dentro de su dominio.
 
 ## Lectura mínima para cualquier tarea
 
-1. `AGENTS.md` raíz.
+1. `AGENTS.md` raíz (para IA) o `GUIA.md` raíz (para humanos).
 2. `docs/01-contexto-alcance-decisiones.md`.
 3. `docs/02-requerimientos-reglas-negocio.md`.
 4. Spec correspondiente en `openspec/specs/`.
@@ -56,7 +69,7 @@ Leer:
 
 Leer:
 
-- `docs/qa/00-qa-demo-entrega.md`
+- `docs/05-qa-demo-entrega.md`
 - `docs/deploy/00-deploy-prototipo.md`
 - `fixtures/demo/`
 
@@ -64,14 +77,14 @@ Leer:
 
 Leer:
 
-- `docs/operacion/00-operacion-handoff.md`
-- `docs/tecnico/00-guia-mantenedor-opencode.md`
-- `docs/post-mvp/00-etapa-2.md`
+- `docs/06-operacion-handoff-postmvp.md`
+- `docs/opencode/00-guia-inicio-rapido.md`
 
-## Si la tarea usa OpenCode / Gentle-AI
+## Si la tarea es ejecutar trabajo en OpenCode / Gentle-AI
 
 Leer:
 
+- `docs/opencode/README_PAQUETE.md` — resumen del paquete y lectura recomendada.
 - `docs/opencode/00-guia-inicio-rapido.md`
 - `docs/opencode/01-flujo-general-opencode-gentle-ai.md`
 - `docs/opencode/02-mapa-ramas-funcionalidades.md`

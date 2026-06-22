@@ -22,8 +22,7 @@ Usá modo plan. No edites archivos.
 Tarea: revisar y preparar datos demo iniciales.
 
 Leé:
-- docs/qa/00-qa-demo-entrega.md
-- docs/qa/08-datos-demo-iniciales.md si existe
+- docs/05-qa-demo-entrega.md
 - fixtures/demo/
 - fixtures/certificacion-valida.json
 - fixtures/curso-con-fechas.json
@@ -53,7 +52,7 @@ Usá modo plan primero.
 Quiero ejecutar QA manual de la validación pública.
 
 Leé:
-- docs/qa/02-checklist-qa-manual-publico.md
+- docs/05-qa-demo-entrega.md
 - openspec/specs/validacion-publica/spec.md
 - fixtures/demo/escenarios-validacion-demo.json si existe
 
@@ -77,7 +76,7 @@ Usá modo plan.
 Quiero ejecutar QA manual del panel administrativo.
 
 Leé:
-- docs/qa/03-checklist-qa-manual-admin.md
+- docs/05-qa-demo-entrega.md
 - docs/frontend/01-pantallas-flujos-ui.md
 - fixtures/demo/
 
@@ -104,8 +103,7 @@ Usá modo plan. No edites archivos.
 Tarea: preparar guion de demo institucional.
 
 Leé:
-- docs/qa/07-guion-demo-instituto.md
-- docs/qa/08-datos-demo-iniciales.md
+- docs/05-qa-demo-entrega.md
 - README.md
 
 Objetivo:

@@ -16,7 +16,7 @@ assignees: ""
 
 ## Checklist
 
-- [ ] Leer `docs/operacion/00-indice-operacion-handoff.md`
+- [ ] Leer `docs/06-operacion-handoff-postmvp.md`
 - [ ] Actualizar documento correspondiente
 - [ ] Verificar que el texto sea claro y breve
 - [ ] Marcar pendientes como `pendiente de confirmación`

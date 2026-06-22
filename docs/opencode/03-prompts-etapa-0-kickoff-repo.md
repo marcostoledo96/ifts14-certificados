@@ -63,10 +63,7 @@ Usá modo plan. No edites archivos.
 Necesito preparar GitHub Issues para el MVP.
 
 Leé:
-- docs/planificacion/issues-github-frontend.md
-- docs/planificacion/issues-github-backend.md
-- docs/planificacion/issues-github-qa-demo.md
-- docs/planificacion/issues-github-operacion-handoff.md si existe
+- docs/04-planificacion-github-roadmap.md
 
 Objetivo:
 - agrupar issues duplicados;

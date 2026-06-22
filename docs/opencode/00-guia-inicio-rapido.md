@@ -15,16 +15,16 @@ git clone https://github.com/marcostoledo96/ifts14-certificados.git
 cd ifts14-certificados
 ```
 
-Crear una rama para agregar esta guía:
+Crear una rama para la tarea que se vaya a trabajar (no trabajar directo sobre `main`):
 
 ```bash
-git checkout -b docs/opencode-runbook
+git checkout -b feature/<modulo>
 ```
 
-Copiar este paquete dentro del repo y revisar:
+Este paquete ya está integrado en el repositorio. Lectura recomendada:
 
 ```txt
-README_PAQUETE.md
+docs/opencode/README_PAQUETE.md
 docs/opencode/00-guia-inicio-rapido.md
 docs/opencode/01-flujo-general-opencode-gentle-ai.md
 ```

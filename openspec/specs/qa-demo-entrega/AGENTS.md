@@ -9,7 +9,7 @@ Spec de QA, demo y entregables del sistema.
 | Archivo | Leer cuando | Función |
 |---------|-------------|---------|
 | `spec.md` | Implementas o revisas este módulo | Objetivo, alcance, criterios de aceptación y casos de prueba |
-| Docs relacionados | Necesitas contexto de QA | `docs/qa/00-qa-demo-entrega.md` |
+| Docs relacionados | Necesitas contexto de QA | `docs/05-qa-demo-entrega.md` |
 | Fixtures relacionados | Necesitas datos de demo | `fixtures/demo/` |
 
 ## Reglas

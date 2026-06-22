@@ -9,7 +9,7 @@ Spec de la validación pública de certificaciones por token QR.
 | Archivo | Leer cuando | Función |
 |---------|-------------|---------|
 | `spec.md` | Implementas o revisas este módulo | Objetivo, alcance, criterios de aceptación y casos de prueba |
-| Docs relacionados | Necesitas contexto de validación | `docs/arquitectura/01-contratos-datos-api.md`, `docs/seguridad/00-seguridad-privacidad.md` |
+| Docs relacionados | Necesitas contexto de validación | `docs/arquitectura/01-contratos-datos-api.md`, `AGENTS.md` raíz (sección Seguridad y privacidad) |
 | Fixtures relacionados | Necesitas datos de ejemplo | `fixtures/certificacion-valida.json`, `fixtures/certificacion-no-encontrada.json`, `fixtures/certificacion-revocada.json` |
 
 ## Reglas de negocio
