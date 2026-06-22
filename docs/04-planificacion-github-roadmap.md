@@ -6,51 +6,89 @@
 
 ## Reviews
 
-Cada miércoles se hará review de avance.
+Cada miércoles se hace review de avance.
 
-## Roadmap resumido
+## Plan activo de ejecución
 
-### Sprint 0 — Base documental
+### Semana 1 — Validación pública, PDF preview, contratos base
 
-- estructura repo;
-- AGENTS;
-- specs;
-- fixtures;
-- issues;
-- diseño de pantallas.
+Foco:
 
-### Sprint 1 — Validación pública y PDF
+- organizar ejecución;
+- completar specs críticas;
+- iniciar frontend público (validación válida);
+- iniciar backend base/validación pública;
+- iniciar contratos backend;
+- preparar datos demo iniciales.
 
-- pantalla válida;
-- pantalla no exitosa;
-- PDF horizontal con QR;
-- datos demo.
+Ramas sugeridas:
 
-### Sprint 2 — Admin básico
+- `frontend/validacion-publica`
+- `frontend/pdf-preview`
+- `spec/backend-contratos`
+- `backend/base-api`
+- `backend/validacion-publica`
+- `docs/opencode-runbook`
 
-- login;
-- dashboard;
-- cursos;
-- fechas;
-- asistencias;
-- emisión;
-- detalle certificación.
+### Semana 2 — Admin básico, cursos, asistencias, certificaciones
 
-### Sprint 3 — Backend/API/PDF/email
+Foco:
 
-- implementar contratos;
-- generar QR;
-- generar PDF;
-- enviar email desde cuenta de prueba;
-- revocar y reenviar.
+- login y dashboard admin;
+- cursos y fechas;
+- asistencias presentes;
+- certificaciones admin;
+- contratos backend;
+- integración parcial frontend/backend si aplica.
 
-### Sprint 4 — QA y demo
+Ramas sugeridas:
 
-- deploy desde `main`;
-- QA manual;
-- guion demo;
-- datos demo;
-- documentación de handoff.
+- `frontend/admin-login-dashboard`
+- `frontend/cursos-fechas`
+- `frontend/asistencias`
+- `frontend/certificaciones-admin`
+- `backend/cursos-asistencias`
+- `backend/certificaciones`
+- `backend/auth-admin-auditoria`
+
+### Semana 3 — Backend/PDF/QR/email, QA, datos demo y deploy
+
+Foco:
+
+- PDF horizontal y QR permanente;
+- email funcional o simulado;
+- datos demo definitivos;
+- QA integral;
+- deploy del prototipo;
+- preparación de demo institucional.
+
+Ramas sugeridas:
+
+- `backend/pdf-qr`
+- `backend/email-datos-demo`
+- `backend/qa-release-support`
+- `frontend/integracion-mocks-qa`
+- `deploy/main-demo`
+- `qa/datos-demo`
+- `qa/checklist-demo`
+
+Los detalles operativos por persona y ciclo están en los archivos de prompts:
+
+- `MARCOS_PROMPTS_SDD_3_SEMANAS_CICLOS_GIT.md`
+- `MATIAS_PROMPTS_SDD_3_SEMANAS_CICLOS_GIT.md`
+
+## Trabajo previo ya realizado
+
+Antes de las 3 semanas de ejecución, se completó:
+
+- estructura del repo;
+- AGENTS.md y reglas operativas;
+- specs iniciales;
+- fixtures ficticios;
+- guía humana;
+- prompts SDD por persona;
+- índice general de documentación;
+- guía de cierre documental (sdd-archive).
 
 ## Git
 

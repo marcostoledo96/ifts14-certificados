@@ -25,6 +25,12 @@ Arquitectura modular contract-first con Clean Architecture liviana en backend.
 
 ## Contrato público base
 
+El ejemplo siguiente muestra la **entidad de dominio** sin el envelope de respuesta API.
+
+Para la respuesta HTTP completa con wrapper `{ "ok": true, "datos": {...} }`, ver `packages/contratos/validacion-publica.contrato.json` y `fixtures/api/validacion-publica-valida.respuesta.json`.
+
+### Ejemplo de dominio plano
+
 ```json
 {
   "estado": "valida",
@@ -49,6 +55,26 @@ Arquitectura modular contract-first con Clean Architecture liviana en backend.
   ]
 }
 ```
+
+### Ejemplo de respuesta API
+
+```json
+{
+  "ok": true,
+  "datos": {
+    "estado": "valida",
+    "alumno": { "..." : "..." },
+    "curso": { "..." : "..." },
+    "certificacion": { "..." : "..." },
+    "fechasPresentes": ["...", "...", "..."],
+    "consulta": {
+      "fechaHora": "2026-06-20T18:35:00-03:00"
+    }
+  }
+}
+```
+
+La distinción es importante: el frontend debe consumir la respuesta API con envelope; el modelo de negocio trabaja con datos planos de dominio.
 
 ## Endpoints conceptuales
 

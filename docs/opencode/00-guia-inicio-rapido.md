@@ -6,7 +6,10 @@ Esta guía indica cómo empezar a trabajar en el repositorio `ifts14-certificado
 
 ## Estado corroborado del repo
 
-El repositorio ya tiene documentación base, `AGENTS.md`, índice general, reglas funcionales y guía técnica mínima. Esta guía agrega prompts detallados por etapa.
+El repositorio ya tiene documentación base, `AGENTS.md`, índice general, reglas funcionales y guía técnica mínima. Los prompts operativos por ciclos SDD están en los archivos raíz:
+
+- `MARCOS_PROMPTS_SDD_3_SEMANAS_CICLOS_GIT.md` (para Marcos).
+- `MATIAS_PROMPTS_SDD_3_SEMANAS_CICLOS_GIT.md` (para Matías).
 
 ## Primeros pasos manuales
 
@@ -21,13 +24,15 @@ Crear una rama para la tarea que se vaya a trabajar (no trabajar directo sobre `
 git checkout -b feature/<modulo>
 ```
 
-Este paquete ya está integrado en el repositorio. Lectura recomendada:
+Lectura recomendada:
 
 ```txt
 docs/opencode/README_PAQUETE.md
 docs/opencode/00-guia-inicio-rapido.md
 docs/opencode/01-flujo-general-opencode-gentle-ai.md
 ```
+
+Luego copiar el ciclo correspondiente desde los archivos raíz de prompts.
 
 ## Setup recomendado con Gentle-AI
 
@@ -88,3 +93,9 @@ Respondé con:
 OpenCode debería responder con un plan, no con cambios de código.
 
 Si intenta modificar archivos antes de planificar, frenarlo y pedirle que use modo `plan`.
+
+## Cierre documental (sdd-archive)
+
+Al finalizar cada ciclo SDD, revisar explícitamente si corresponde actualizar documentación. La guía completa está en `docs/07-sdd-archive-y-mantenimiento-documentacion.md`.
+
+No cerrar el ciclo si cambió comportamiento y no se actualizó la documentación correspondiente.

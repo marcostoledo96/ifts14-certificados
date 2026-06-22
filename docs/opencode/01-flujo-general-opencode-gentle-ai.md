@@ -18,9 +18,10 @@ Definir el ciclo de trabajo estándar para cualquier tarea del proyecto.
 9. Ejecutar tests / validaciones disponibles.
 10. Hacer QA manual si corresponde.
 11. Actualizar documentación si cambió comportamiento.
-12. Pedir resumen y mensaje de commit.
-13. Commit manual.
-14. Pull Request.
+12. Completar etapa sdd-archive (ver `docs/07-sdd-archive-y-mantenimiento-documentacion.md`).
+13. Pedir resumen y mensaje de commit.
+14. Commit manual.
+15. Pull Request.
 ```
 
 ## Prompt base de planificación

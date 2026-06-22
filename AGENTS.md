@@ -219,6 +219,21 @@ Actualizar documentación cuando cambie:
 
 Mantener documentos breves. Si un archivo crece demasiado, proponer división. Si hay duplicación, proponer consolidación.
 
+## Cierre documental por ciclo (sdd-archive)
+
+Al finalizar cada ciclo SDD, revisar explícitamente si corresponde actualizar documentación.
+
+La matriz completa de qué actualizar por tipo de cambio está en `docs/07-sdd-archive-y-mantenimiento-documentacion.md`.
+
+**Regla obligatoria:** No cerrar un ciclo si cambió comportamiento y no se actualizó la documentación correspondiente.
+
+Cada ciclo debe cerrar con una respuesta a:
+
+1. ¿Qué documentos revisé?
+2. ¿Cuáles actualicé?
+3. ¿Cuáles no actualicé y por qué?
+4. ¿Queda deuda documental?
+
 ---
 
 ## Seguridad y privacidad

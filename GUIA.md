@@ -443,6 +443,7 @@ Una tarea está terminada si:
 - pasa QA manual si corresponde;
 - no expone datos sensibles indebidamente;
 - actualiza documentación si cambió comportamiento;
+- completó el cierre sdd-archive (ver sección 21);
 - propone commit claro;
 - tiene PR revisado antes del merge.
 
@@ -513,4 +514,37 @@ spec → criterios → fixture/contrato → plan → implementación
 ```
 
 Esta regla existe para que OpenCode/Gentle-AI no improvise y para que el proyecto llegue ordenado a la demo.
+
+---
+
+## 21. Cierre documental por ciclo (sdd-archive)
+
+Al finalizar cada ciclo SDD, se debe revisar si la tarea cambió documentación.
+
+La guía completa está en `docs/07-sdd-archive-y-mantenimiento-documentacion.md`.
+
+**Regla:** No cerrar un ciclo si cambió comportamiento y no se actualizó la documentación correspondiente.
+
+Cada ciclo debe cerrar respondiendo:
+
+1. ¿Qué documentos revisé?
+2. ¿Cuáles actualicé?
+3. ¿Cuáles no actualicé y por qué?
+4. ¿Queda deuda documental?
+
+Matriz resumida por tipo de cambio:
+
+| Tipo de cambio | Archivos a revisar |
+|---|---|
+| Regla funcional | `02-requerimientos-reglas-negocio.md`, spec correspondiente |
+| Ruta pública | `frontend/01-pantallas-flujos-ui.md`, `03-arquitectura-contratos-datos.md` |
+| API o endpoint | `backend/01-contratos-api.md`, `packages/contratos/`, fixtures API |
+| Fixture o contrato | `fixtures/`, `packages/contratos/`, spec relacionada |
+| UI pública | `frontend/01-pantallas-flujos-ui.md`, `frontend/02-sistema-diseno-anti-cliches.md` |
+| PDF o QR | `pdf-qr/00-pdf-qr-certificado.md`, fixture PDF |
+| QA o demo | `05-qa-demo-entrega.md` |
+| Deploy o infra | `deploy/00-deploy-prototipo.md` |
+| Planificación | `04-planificacion-github-roadmap.md` |
+| Decisión global | `01-contexto-alcance-decisiones.md`, `AGENTS.md` |
+| Creación/eliminación de archivos | `00-indice-general.md` |
 

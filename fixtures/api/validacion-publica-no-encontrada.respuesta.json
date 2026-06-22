@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "error": {
+    "codigo": "TOKEN_NO_ENCONTRADO",
+    "mensaje": "No pudimos encontrar una certificación asociada a este código."
+  }
+}

@@ -6,7 +6,7 @@ Esta carpeta contiene contratos conceptuales o tipos compartidos entre frontend 
 
 ## Reglas
 
-- No cambiar un contrato sin actualizar `docs/backend/03-contratos-api-mvp.md`.
+- No cambiar un contrato sin actualizar `docs/backend/01-contratos-api.md`.
 - No cambiar un contrato sin actualizar fixtures relacionados.
 - No agregar campos por conveniencia de una pantalla si no están documentados.
 - Usar nombres en español, salvo convenciones técnicas.

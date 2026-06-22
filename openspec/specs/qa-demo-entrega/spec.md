@@ -1,7 +1,3 @@
-# Spec consolidada — qa-demo-entrega
-
-## Spec
-
 # Spec — QA, demo y entrega
 
 ## Objetivo
@@ -29,11 +25,7 @@ Incluye:
 - login con Google;
 - 2FA.
 
----
-
 ## Criterios de aceptación
-
-# Criterios de aceptación — QA demo entrega
 
 - La demo abre desde una URL pública estable.
 - Una persona externa puede validar autenticidad por QR/link.
@@ -46,47 +38,39 @@ Incluye:
 - El envío/reenvío funciona o está simulado de forma explícita.
 - Todo usa datos ficticios.
 
----
-
 ## Casos de prueba
 
-# Casos de prueba — QA demo entrega
-
-## Caso 1 — QR válido
+### Caso 1 — QR válido
 
 Dado un PDF demo con QR,
 cuando una persona externa escanea el QR,
 entonces ve la certificación válida en la web.
 
-## Caso 2 — Link compartido por alumno
+### Caso 2 — Link compartido por alumno
 
 Dado un link de certificación enviado al alumno,
 cuando una persona externa abre el link,
 entonces puede verificar la autenticidad de la constancia.
 
-## Caso 3 — Token inexistente
+### Caso 3 — Token inexistente
 
 Dado un token inexistente,
 cuando se abre la validación,
 entonces no se muestran datos personales.
 
-## Caso 4 — Certificación revocada
+### Caso 4 — Certificación revocada
 
 Dado un certificado revocado,
 cuando se abre el QR,
 entonces se muestra estado revocado.
 
-## Caso 5 — Reenvío
+### Caso 5 — Reenvío
 
 Dada una certificación modificada,
 cuando Bedelía reenvía el certificado,
 entonces se genera un nuevo PDF con el mismo QR.
 
----
-
 ## Pendientes
-
-# Pendientes — QA demo entrega
 
 - Confirmar proveedor real de email o cuenta de prueba.
 - Confirmar si el PDF se generará real o preview funcional en la demo.
