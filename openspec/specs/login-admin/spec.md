@@ -1,7 +1,3 @@
-# Spec consolidada — login-admin
-
-## Spec
-
 # Spec — Login administrativo
 
 ## Objetivo
@@ -22,27 +18,17 @@ La tecnología de implementación se mantiene agnóstica hasta que el IFTS 14 co
 - Respetar los fixtures y contratos asociados.
 - Aplicar TDD cuando se implemente la lógica.
 
-## Pendientes
-
-- Confirmar stack definitivo.
-- Confirmar integración futura con web oficial.
-- Revisar esta spec cuando se incorporen datos técnicos reales.
-
----
-
 ## Criterios de aceptación
 
-# Criterios de aceptación — Login administrativo
+### Criterios generales
 
-## Criterios generales
-
-- La funcionalidad cumple el objetivo definido en `spec.md`.
+- La funcionalidad cumple el objetivo definido en esta spec.
 - No introduce dependencias tecnológicas no confirmadas.
 - Usa datos ficticios si se muestra en demo.
 - Mantiene lenguaje claro y formal.
 - Actualiza documentación si cambia el comportamiento.
 
-## Criterios mínimos para MVP
+### Criterios mínimos para MVP
 
 - Existe una forma de probar el flujo principal.
 - Los errores se comunican de forma clara.
@@ -50,13 +36,9 @@ La tecnología de implementación se mantiene agnóstica hasta que el IFTS 14 co
 - La interfaz o API respeta los contratos definidos.
 - La funcionalidad puede revisarse manualmente antes de mergear.
 
----
-
 ## Casos de prueba
 
-# Casos de prueba — Login administrativo
-
-## Casos iniciales
+### Casos iniciales
 
 1. Caso exitoso principal.
 2. Caso con datos incompletos.
@@ -64,17 +46,13 @@ La tecnología de implementación se mantiene agnóstica hasta que el IFTS 14 co
 4. Caso de error controlado.
 5. Caso de validación manual para demo.
 
-## Regla TDD
+### Regla TDD
 
 Cuando se implemente esta funcionalidad, los tests deben escribirse antes o junto con la implementación.
 
 Si todavía no se conoce el framework de testing, los casos se mantienen en este archivo como especificación ejecutable futura.
 
----
-
 ## Pendientes
-
-# Pendientes — Login administrativo
 
 - Confirmar tecnología final si impacta este módulo.
 - Completar detalles cuando avance el desarrollo.

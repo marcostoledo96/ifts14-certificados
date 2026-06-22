@@ -10,7 +10,7 @@ Hasta ese momento, debo tratar esta carpeta como una zona preparada para impleme
 
 - No debo asumir una tecnología final si no está confirmada.
 - Si se implementa el prototipo externo, puedo usar los ejemplos documentados de Node.js/Express/Prisma/PostgreSQL únicamente como referencia aprobada para prototipo.
-- Debo respetar los contratos de `docs/backend/03-contratos-api-mvp.md`.
+- Debo respetar los contratos de `docs/backend/01-contratos-api.md`.
 - Debo respetar los fixtures definidos en `fixtures/` y `packages/contratos/`.
 - No debo cambiar nombres de campos sin actualizar documentación, specs, fixtures y casos de prueba.
 - Debo escribir documentación y comentarios en español argentino formal.
@@ -26,7 +26,7 @@ Hasta ese momento, debo tratar esta carpeta como una zona preparada para impleme
 Antes de implementar debo leer:
 
 1. `docs/backend/00-indice-backend.md`
-2. `docs/backend/03-contratos-api-mvp.md`
+2. `docs/backend/01-contratos-api.md`
 3. `docs/backend/04-casos-uso.md`
 4. `docs/backend/08-tdd-backend.md`
 5. `openspec/specs/backend-api/`

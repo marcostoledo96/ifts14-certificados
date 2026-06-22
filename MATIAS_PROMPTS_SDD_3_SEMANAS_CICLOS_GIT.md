@@ -10,6 +10,7 @@ Esta guía es para que Matías trabaje el backend del proyecto `ifts14-certifica
 - OpenCode no debe hacer commit, push ni merge automáticamente.
 - Cada ciclo se trabaja en rama propia.
 - Cada ciclo debe cerrar con tests o validaciones, documentación actualizada y commit sugerido.
+- Cada ciclo debe cerrar con la etapa sdd-archive: revisar explícitamente si corresponde actualizar documentación según `docs/07-sdd-archive-y-mantenimiento-documentacion.md`.
 - Los PR se abren hacia `main`.
 - Se recomienda squash merge después de revisión.
 
@@ -43,6 +44,21 @@ git pull origin main
 ```
 
 Si el ciclo queda incompleto, mantener la rama o abrir PR draft.
+
+## Etapa sdd-archive por ciclo
+
+Antes de cerrar cada ciclo, revisá explícitamente si corresponde actualizar documentación.
+
+La guía completa está en `docs/07-sdd-archive-y-mantenimiento-documentacion.md`.
+
+Respondé:
+
+1. ¿Qué documentos revisaste?
+2. ¿Cuáles actualizaste?
+3. ¿Cuáles no actualizaste y por qué?
+4. ¿Queda deuda documental?
+
+No cerrar el ciclo si cambió comportamiento y no se actualizó la documentación correspondiente.
 
 ---
 
