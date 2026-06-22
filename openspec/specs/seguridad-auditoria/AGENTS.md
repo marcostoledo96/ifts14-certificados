@@ -9,7 +9,7 @@ Spec de seguridad, autenticación y auditoría del sistema.
 | Archivo | Leer cuando | Función |
 |---------|-------------|---------|
 | `spec.md` | Implementas o revisas este módulo | Objetivo, alcance, criterios de aceptación y casos de prueba |
-| Docs relacionados | Necesitas contexto de seguridad | `docs/seguridad/00-seguridad-privacidad.md` |
+| Docs relacionados | Necesitas contexto de seguridad | `AGENTS.md` raíz (sección Seguridad y privacidad), `docs/02-requerimientos-reglas-negocio.md` |
 
 ## Reglas
 

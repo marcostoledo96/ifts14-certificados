@@ -9,7 +9,7 @@ Spec de operación, deploy y handoff del sistema.
 | Archivo | Leer cuando | Función |
 |---------|-------------|---------|
 | `spec.md` | Implementas o revisas este módulo | Objetivo, alcance, criterios de aceptación y casos de prueba |
-| Docs relacionados | Necesitas contexto de operación | `docs/operacion/00-operacion-handoff.md`, `docs/deploy/00-deploy-prototipo.md` |
+| Docs relacionados | Necesitas contexto de operación | `docs/06-operacion-handoff-postmvp.md`, `docs/deploy/00-deploy-prototipo.md` |
 
 ## Reglas
 
