@@ -29,7 +29,7 @@ Leé:
 - docs/backend/00-backend-mvp.md
 - docs/backend/01-contratos-api.md
 - docs/backend/02-casos-uso-tdd.md
-- docs/backend/03-seguridad-privacidad.md si existe
+- AGENTS.md (sección Seguridad y privacidad)
 - docs/arquitectura/01-contratos-datos-api.md
 
 Objetivo:

@@ -10,7 +10,7 @@ Ayudar a Marcos y a su compañero a trabajar con OpenCode sin que la IA improvis
 
 ## Cómo aplicarlo
 
-Copiar la carpeta `docs/opencode/` dentro del repositorio.
+Este paquete ya está integrado en el repositorio, dentro de `docs/opencode/`.
 
 Lectura recomendada:
 
@@ -32,6 +32,7 @@ Lectura recomendada:
 
 | Archivo | Uso |
 |---|---|
+| `README_PAQUETE.md` | Este archivo. Resumen del paquete y lectura recomendada. |
 | `00-guia-inicio-rapido.md` | Dónde empezar y primer prompt para OpenCode. |
 | `01-flujo-general-opencode-gentle-ai.md` | Flujo estándar de trabajo con Plan/Build/SDD/TDD. |
 | `02-mapa-ramas-funcionalidades.md` | Ramas sugeridas por funcionalidad y orden de trabajo. |

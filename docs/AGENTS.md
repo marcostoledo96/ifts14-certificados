@@ -4,6 +4,16 @@
 
 Carpeta raíz de documentación operativa del sistema de certificaciones QR.
 
+## Archivos raíz para humanos
+
+Antes de leer documentación técnica, consultar:
+
+- `../../GUIA.md`: guía humana completa del proyecto.
+- `../../MARCOS_PROMPTS_SDD_3_SEMANAS_CICLOS_GIT.md`: prompts SDD para Marcos.
+- `../../MATIAS_PROMPTS_SDD_3_SEMANAS_CICLOS_GIT.md`: prompts SDD para Matías.
+
+No leer los archivos de prompts completos por defecto. Solo abrirlos cuando la tarea sea ejecutar, revisar o modificar un ciclo SDD.
+
 ## Archivos y carpetas
 
 | Archivo/carpeta | Leer cuando | Función |
@@ -20,17 +30,7 @@ Carpeta raíz de documentación operativa del sistema de certificaciones QR.
 | `backend/` | Implementas backend | MVP backend, contratos API y casos de uso TDD |
 | `frontend/` | Implementas frontend | MVP frontend, pantallas, flujos y sistema de diseño |
 | `pdf-qr/` | Trabajas generación de PDF/QR | Generación de certificados PDF con QR |
-| `seguridad/` | Trabajas privacidad o seguridad | Seguridad, privacidad y reglas de protección de datos |
-| `decisiones/` | Consultas una decisión confirmada | Decisiones de arquitectura o producto ya tomadas |
 | `deploy/` | Despliegas el prototipo | Guía de deploy |
-| `operacion/` | Operación o handoff del sistema | Handoff y guía del mantenedor |
-| `post-mvp/` | Planificas etapa 2 | Funcionalidades post-MVP |
-| `qa/` | Ejecutas pruebas o preparas demo | QA, demo y entregables |
-| `planificacion/` | Organizas roadmap o backlog | Roadmap y backlog |
-| `requerimientos/` | Detalles de requerimientos MVP | Detalle de requerimientos |
-| `reuniones/` | Consultas acuerdos de reuniones | Pendientes y acuerdos de reuniones |
-| `tecnico/` | Mantienes OpenCode/Gentle-AI | Guía del mantenedor técnico |
-| `agents/` | Configuras agentes o prompts | Guía de agents y prompts |
 | `opencode/` | Usas OpenCode/Gentle-AI | Guías y prompts operativos por etapa |
 
 ## Reglas
